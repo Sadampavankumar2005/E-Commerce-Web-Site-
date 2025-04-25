@@ -1,0 +1,283 @@
+ /* img */
+
+ .img{
+    text-align: center;
+    background-image: url("../images/peoduct\ background\ img.webp");
+    border: 2px solid grey;
+    padding: 60px
+}
+
+/* product img */
+
+.container body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.product-image img {
+  width: 600px;
+  border-radius: 10px;
+}
+.product-details {
+  max-width: 500px;
+}
+.product-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.ratings {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #555;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.category {
+  font-size: 14px;
+  color: gray;
+  margin-left: 10px;
+}
+.description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+button {
+   background-color: #0d3f8f; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #092e6d;
+} 
+.you{
+  margin-left: 20px;
+}
+.disc,.dis{
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* best produtcs */
+
+.container1{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* body {
+background-color: #f5f9fd;
+padding: 40px;
+} */
+
+/* .container {
+max-width: 1200px;
+margin: auto;
+text-align: center;
+} */
+
+/* h1 {
+margin-bottom: 40px;
+font-size: 2.5rem;
+color: #111;
+} */
+
+.product-grid1 {
+display: grid;
+row-gap: 10px;
+grid-template-columns: auto auto auto;
+gap: 50px;
+justify-items:center;
+justify-content: space-evenly;
+text-align: start;
+margin-left: 100px;
+
+}
+
+.card1 {
+background: #fff;
+border-radius: 15px;
+padding: 15px;
+position: relative;
+box-shadow: 0px 4px 12px rgba(17, 16, 16, 0.05);
+width: 100%;
+max-width: 250px;
+transition: transform 0.3s;
+border: 2px solid rgb(223, 216, 216);
+}
+
+.card1:hover {
+transform: scale(1.02);
+}
+
+.card1 img {
+width: 100%;
+height: 150px;
+object-fit: contain;
+margin-bottom: 10px;
+}
+
+.badge1 {
+position: absolute;
+top: 15px;
+left: 15px;
+background-color: #d2deea;
+color: white;
+padding: 4px 10px;
+border-radius: 20px;
+font-size: 0.75rem;
+margin-left: 180px;
+}
+.badge1:hover{
+color: red;
+}
+
+.product-grid1 h3 {
+font-size: 1rem;
+margin: 10px 0;
+}
+
+.stars1 {
+color: #f5b301;
+font-size: 1rem;
+margin-bottom: 10px;
+}
+
+.card-bottom1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.price1 {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+}
+
+.add-btn1 {
+font-size: 1.4rem;
+background: none;
+/* border: 2px solid #eaeff5;   */
+border-radius: 50%;
+width: 32px;
+height: 32px;
+color: #0d0e0e;
+cursor: pointer;
+ transition: background 0.2s; 
+}
+
+@media  screen and (max-width:600px) {
+.product-grid{
+  display: grid;
+
+}
+ 
+}
+
+/* footer styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.footer body {
+font-family: Arial, sans-serif;
+background-color: #f2f6fa;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 40px;
+background-color: #326168;
+border: 1px solid rgb(9, 13, 238);
+color: #eff2f3;
+}
+
+.footer-column {
+flex: 1;
+padding: 0 20px;
+
+}
+
+.footer-column h3 {
+margin-bottom: 15px;
+font-size: 22px;
+}
+
+.footer-column p,
+.footer-column li {
+font-size: 16px;
+line-height: 1.6;
+color: #bbcbed;
+list-style: none;
+}
+
+.footer-column ul {
+padding-left: 20px;
+}
+
+.footer-logo {
+font-size: 28px;
+font-weight: bold;
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.footer-logo i {
+font-size: 24px;
+margin-right: 8px;
+}
+
+.footer-column address {
+font-style: normal;
+}
+#add{
+color: #9dc5e8;
+}
+
+@media (max-width: 768px) {
+.footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-column {
+  margin-bottom: 30px;
+}
+}
